@@ -1,0 +1,500 @@
+   33  systemctl restart php7.4-fpm nginx
+   34  cd /var/www/html/magento2/
+   35  ls
+   36  bin/magento sampledata:deploy
+   37  vim composer.json 
+   38  php bin/magento sampledata:deploy --no-update
+   39  php bin/magento sampledata:remove -h
+   40  php bin/magento sampledata:remove 
+   41  php bin/magento sampledata:deploy 
+   42  php bin/magento setup:upgrade
+   43  systemctl start elasticsearch
+   44  systemctl enable elasticsearch
+   45  php bin/magento setup:upgrade
+   46  php bin/magento sampledata:deploy 
+   47  composer update
+   48  php bin/magento sampledata:deploy 
+   49  php bin/magento setup:upgrade
+   50  free -m
+   51  systemctl start elasticsearch
+   52  php bin/magento setup:upgrade
+   53  php bin/magento sampledata:deploy 
+   54  composer version
+   55  composer help
+   56  composer -v
+   57  composer about
+   58  composer info
+   59  composer -v
+   60  compser upgrade
+   61  composer upgrade
+   62  df -hT
+   63  history
+   64  composer upgrade
+   65  sudo composer self-update
+   66  sudo composer self-update --2
+   67  composer upgrade
+   68  apt install php7.4*
+   69  apt install php7.4-gd php7.4-bcmath php7.4-cgi php7.4-cli php7.4-opcache php7.4-common php7.4-ast php7.4-iconv php7.4-sybase php7.4-gmagik
+   70  apt install php7.4-gd php7.4-bcmath php7.4-cgi php7.4-cli php7.4-opcache php7.4-common php7.4-ast php7.4-iconv php7.4-sybase 
+   71  apt install php7.4-bcmath php7.4-tideways php7.4-mailparse php7.4-soap* php7.4-json php7.4-lua* php7.4-xml* php7.4-http php7.4-imagik php7.4-stomp* php7.4-memcached php7.4-imap*
+   72  apt install php7.4-bcmath php7.4-tideways php7.4-mailparse php7.4-soap* php7.4-json php7.4-lua* php7.4-xml* php7.4-http php7.4-stomp* php7.4-memcached php7.4-imap*
+   73  apt install php7.4-snmp php7.4-geoip php7.4-tidey php7.4-dom php7.4-curl php7.4-json*
+   74  apt install php7.4-snmp php7.4-geoip  php7.4-dom php7.4-curl php7.4-json*
+   75  systemctl restart php7.4-fpm.service 
+   76  sudo composer self-update --2
+   77  composer upgrade
+   78  apt install php7.4-bcmath php7.4-ctype php7.4-curl php7.4-dom php7.4-gd php7.4-hash php7.4-iconv php7.4-intl php7.4-mbstring php7.4-openssl php7.4-pdo_mysqlphp7.4-simplexml
+   79  apt install php7.4-bcmath php7.4-ctype php7.4-curl php7.4-dom php7.4-gd php7.4-hash php7.4-iconv php7.4-intl php7.4-mbstring php7.4-openssl php7.4-pdo_mysql php7.4-simplexml
+   80  apt install php7.4-bcmath php7.4-ctype php7.4-curl php7.4-dom php7.4-gd  php7.4-iconv php7.4-intl php7.4-mbstring 
+   81  apt autoremove 
+   82  php7.4-soap php7.4-xsl php7.4-zip php7.4-sockets
+   83  apt install php7.4-soap php7.4-xsl php7.4-zip php7.4-sockets
+   84  systemctl restart php7.4-fpm.service 
+   85  composer upgrade
+   86  apt install php7.4-soap php7.4-xsl php7.4-zip php7.4-raphf'
+   87  ;
+   88  apt install php7.4-soap php7.4-xsl php7.4-zip php7.4-raphf
+   89  systemctl restart php7.4-fpm.service 
+   90  composer upgrade
+   91  apt install php7.4-soap php7.4-xsl php7.4-zip php7.4-propro
+   92  systemctl restart php7.4-fpm.service 
+   93  composer upgrade
+   94  composer selfupdate --1
+   95  composer upgrade
+   96  df -hT
+   97  halt
+   98  mkdir hdd
+   99  mkdir /hdd
+  100  swapoff /swapfile 
+  101  rm -rf /swapfile 
+  102  rm -rf /swapfile 
+  103  swapoff /swapfile 
+  104  swapoff -f /swapfile 
+  105  lsblk
+  106  mkswap /dev/sdb
+  107  vim /etc/fstab 
+  108  init 6
+  109  free -m
+  110  rm -rf /swapfile 
+  111  df -hT
+  112  cd /var/www/html/magento2/
+  113  ls
+  114  composer upgrade
+  115  composer upgrade
+  116  bin/magento sampledata:deploy
+  117  Copy
+  118  bin/magento setup:upgrade
+  119  composer selfupdate --2
+  120  composer upgrade
+  121  bin/magento setup:upgrade
+  122  Copy
+  123  Updated
+  124  9 days ago
+  125  bin/magento sampledata:deploy
+  126  composer upgrade
+  127   composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition <install-directory-name>
+  128  cd ..
+  129  mkdir magento/
+  130  cp -arv magento2/* magento/
+  131  rm -rf magento2/*
+  132  cp -arv magento/phpmyadmin magento2/
+  133  ls
+  134  cd magento2/
+  135   composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition <install-directory-name>
+  136   composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition /var/www/html/magento2
+  137   composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition /var/www/html/magento
+  138   composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition /var/
+  139   composer create-project --repository-url=https://repo.magento.com/magento/project-community-edition /var/www/html/magento2
+  140  composer create-project --repository-url=https://repo.magento.com/ magento/project-enterprise-edition=2.3.0 /var/www/html/magento2
+  141  git clone https://github.com/magento/magento2.git
+  142  composer upgrade
+  143  git checkout 2.4.1
+  144  composer install
+  145  mv magento2/* /var/www/html/magento2/
+  146  composer upgrade
+  147  git checkout 2.4.1
+  148  composer upgrade
+  149  sudo composer self-update --1
+  150  composer upgrade
+  151  php bin/magento setup:install --base-url=https://magento2.mgt/ --db-host=localhost --db-name=magento --db-user=user --db-password=password  --admin-firstname=MGT --admin-lastname=COM --admin-email=test@mgt.com  --admin-user=admin --admin-password=Gopal@123 --language=en_US  --currency=INR --timezone=Asia/Kolkata --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=http://127.0.0.1/ --elasticsearch-port=9200
+  152  systemctl start elasticsearch
+  153  php bin/magento setup:install --base-url=https://magento2.mgt/ --db-host=localhost --db-name=magento --db-user=user --db-password=password  --admin-firstname=MGT --admin-lastname=COM --admin-email=test@mgt.com  --admin-user=admin --admin-password=Gopal@123 --language=en_US  --currency=INR --timezone=Asia/Kolkata --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=http://127.0.0.1/ --elasticsearch-port=9200
+  154  systemctl restart elasticsearch
+  155  php bin/magento setup:install --base-url=https://magento2.mgt/ --db-host=localhost --db-name=magento --db-user=user --db-password=password  --admin-firstname=MGT --admin-lastname=COM --admin-email=test@mgt.com  --admin-user=admin --admin-password=Gopal@123 --language=en_US  --currency=INR --timezone=Asia/Kolkata --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=http://127.0.0.1/ --elasticsearch-port=9200
+  156  systemctl status elasticsearch
+  157  netstat
+  158  curl -I http://127.0.0.1:9200
+  159  php bin/magento setup:install --base-url=https://magento2.mgt/ --db-host=localhost --db-name=magento --db-user=user --db-password=password  --admin-firstname=MGT --admin-lastname=COM --admin-email=test@mgt.com  --admin-user=admin --admin-password=Gopal@123 --language=en_US  --currency=INR --timezone=Asia/Kolkata --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=http://127.0.0.1/ --elasticsearch-port=9200
+  160  ls
+  161  init 6
+  162  cd /var/www/html/magento2/
+  163  ls -l
+  164  rm -rvf phpMyAdmin-5.0.4-all-languages.zip 
+  165  cat /etc/hosts
+  166  history
+  167  cat /etc/hosts
+  168  cd ..
+  169  ls
+  170  mv magento2 git
+  171  mkdir magento2
+  172  cd magento2
+  173  ll
+  174  'ls
+  175  composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition magento2.mgtcommerce.com
+  176  composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition magento2.mgtcommerce.com
+  177  composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition magento2.mgtcommerce.com
+  178  ls
+  179  df -hT
+  180  lsblk
+  181  cd /var/www/html/
+  182  ll
+  183  ls
+  184  ls magento/
+  185  rm -rf git*
+  186  history
+  187  fdisk 
+  188  lsblk
+  189  nano /etc/fstab 
+  190  init 6
+  191  fdisk /dev/sda
+  192  init 6
+  193  fdisk /dev/sda
+  194  partprobe
+  195  df -hT
+  196  cd /var/www/html/
+  197  ll
+  198  'ls
+  199  ls
+  200  cd magento2/
+  201  ls
+  202  mysql -u root -p
+  203  ls
+  204  php bin/magento setup:install --backend-frontname='admin' --key='18Av6ITivOZG3gwY1DhMDWtlLfx1spLP' --session-save='files' --db-host='127.0.0.1' --db-name='magento2' --db-user='user' --db-password='password' --base-url='https://magento2.mgt/' --base-url-secure='https://magento2.mgt/' --admin-user='admin' --admin-password='Gopal@123' --admin-email='john@doe.com' --admin-firstname='John' --admin-lastname='Doe' --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=127.0.0.1 --elasticsearch-port=9200
+  205  bin/magento sampledata:deploy
+  206  bin/magento sampledata:deploy --vvv
+  207  bin/magento sampledata:deploy 
+  208  mysql -u root -p;
+  209  rm -rf /var/www/html/magento2/*
+  210  cd ..
+  211  pwd
+  212  cd /var/www/html/
+  213  ls
+  214  mv magento phpmyadmin
+  215  cd phpmyadmin/
+  216  nano /etc/nginx/sites-available/phpmyadmin.conf 
+  217  wget https://files.phpmyadmin.net/phpMyAdmin/5.0.4/phpMyAdmin-5.0.4-all-languages.zip
+  218  ls
+  219  unzip phpMyAdmin-5.0.4-all-languages.zip 
+  220  ls
+  221  mv phpMyAdmin-5.0.4-all-languages/* /var/www/html/phpmyadmin/
+  222  ls
+  223  chown -R magento-ssh:clp /var/www/html
+  224  cd ..
+  225  systemctl restart nginx
+  226  systemctl status nginx
+  227  cd magento2/
+  228  ls
+  229  cd ..
+  230  ls
+  231  composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition magento2
+  232  rm -rf magento2
+  233  mkdir magento2
+  234  composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition magento2
+  235  ls
+  236  magento2/
+  237  cd magento2/
+  238  ls
+  239  php bin/magento setup:install --backend-frontname='admin' --key='18Av6ITivOZG3gwY1DhMDWtlLfx1spLP' --session-save='files' --db-host='127.0.0.1' --db-name='magento2' --db-user='user' --db-password='password' --base-url='https://magento2.mgt/' --base-url-secure='https://magento2.mgt/' --admin-user='admin' --admin-password='Gopal@123' --admin-email='john@doe.com' --admin-firstname='John' --admin-lastname='Doe' --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=127.0.0.1 --elasticsearch-port=9200
+  240  bin/magento sampledata:deploy 
+  241  chown -R magento-ssh:clp /var/www/html
+  242  systemctl restart nginx
+  243  bin/magento module:disable Magento_TwoFactorAuth
+  244  systemctl restart nginx
+  245  bin/magento cron:install [--force]
+  246  bin/magento cron:install 
+  247  crontab -l
+  248  mv -v pub/errors/local.xml.sample  pub/errors/local.xml
+  249  composer update
+  250  chown -R magento-ssh:clp /var/www/html
+  251  php bin/magento cache:flush
+  252  php bin/magento setup:upgrade
+  253   php bin/magento setup:di:compile
+  254   php bin/magento setup:static-content:deploy 
+  255   php bin/magento setup:static-content:deploy -f
+  256   php bin/magento cache:flush
+  257  chown -R magento-ssh:clp /var/www/html
+  258  bin/magento sampledata:deploy --no-update
+  259  php bin/magento sampledata:deploy
+  260  yes
+  261  exit
+  262  ls
+  263  nano /etc/nginx/sites-available/magento.conf 
+  264  systemctl restart nginx
+  265  rm -rf /etc/nginx/sites-available/default 
+  266  rm -rf /etc/nginx/sites-enabled/default 
+  267  systemctl restart nginx
+  268  cat /etc/hosts
+  269  nano /etc/nginx/sites-available/magento.conf 
+  270  nginx -t
+  271  nano /etc/nginx/sites-available/magento.conf 
+  272  history
+  273  openssl req         -newkey rsa:2048 -nodes -keyout /etc/nginx/domain2.key        -x509 -days 365 -out /etc/nginx/domain2.crt
+  274  nano /etc/nginx/sites-available/magento.conf 
+  275  systemctl restart nginx
+  276  nano /etc/hosts
+  277  mkfs.ext4 /dev/sdc
+  278  lsblk
+  279  fdisk /dev/sdc
+  280  partprobe
+  281  lsblk
+  282  mkfs.ext4 /dev/sdc1
+  283  mkdir /new
+  284  mount /new
+  285  mount /new /dev/sdc1
+  286  mount  /dev/sdc1 /new
+  287  mv -v /var/www/* /new/
+  288  nano /etc/fstab 
+  289  fdisk /dev/sda
+  290  mkswap /dev/sda2
+  291  nano /etc/fstab 
+  292  init 6
+  293  vim /etc/hosts
+  294  free -m
+  295  apt install apache2-utils -y
+  296  htpasswd -c /var/www/.htpasswd gopal
+  297  cat /var/www/.htpasswd 
+  298  nano /etc/nginx/sites-available/magento.conf 
+  299  systemctl restart nginx
+  300  nginx -t
+  301  nano /etc/nginx/sites-available/magento.conf 
+  302  systemctl restart nginx
+  303  nginx -t
+  304  nano /etc/nginx/sites-available/magento.conf 
+  305  systemctl restart nginx
+  306  ip a
+  307  cat /etc/nginx/sites-available/magento.conf 
+  308  sudo chfn -o umask=002 magento-ssh 
+  309  mkdir -l
+  310  su - magento-ssh 
+  311  usermod -aG sudo magento-ssh 
+  312  mkdir /home/magento-ssh
+  313  su - magento-ssh 
+  314  chown -R magento-ssh:clp /home/magento-ssh
+  315  su - magento-ssh 
+  316  vi /etc/profile
+  317  stat -c "%a %n" /home/magento-ssh/abc
+  318  exit
+  319  useradd gopal
+  320  useradd gopalraha
+  321  adduser gopalraha
+  322  adduser gopalrahas
+  323  su - gopalrahs
+  324  su - gopalrahas
+  325  exit
+  326  ip -a
+  327  ip a
+  328  init 6
+  329  su - gopalrahas
+  330  apt install proftpd
+  331  apt install proftpd
+  332  userdel magento-ssh 
+  333  userdel magento-ssh 
+  334  kill -9 583
+  335  userdel magento-ssh 
+  336  adduser magento-ftp
+  337  vim /etc/proftpd/proftpd.conf 
+  338  vim /etc/proftpd/proftpd.conf 
+  339  systemctl restart proftpd.service 
+  340  su - magento-ftp 
+  341  exit
+  342  ls
+  343  cp magento.conf de-magento.conf
+  344  vim de-magento.conf 
+  345  ln -s de-magento.conf /etc/nginx/sites-enabled/
+  346  systemctl restart nginx
+  347  nginx -t
+  348  vim de-magento.conf 
+  349  vim de-magento.conf 
+  350  systemctl restart nginx
+  351  nginx -t
+  352  ln -fs de-magento.conf /etc/nginx/sites-enabled/
+  353  ls /etc/nginx/sites-enabled/
+  354  nginx -t
+  355  rm -rf /etc/nginx/sites-enabled/de-magento.conf
+  356  systemctl restart nginx
+  357  ln -fs /etc/nginx/sites-available/de-magento.conf /etc/nginx/sites-enabled/de-magento.conf
+  358  systemctl restart nginx
+  359  history
+  360  openssl req         -newkey rsa:2048 -nodes -keyout /etc/nginx/domain3.key        -x509 -days 365 -out /etc/nginx/domain3.crt
+  361  vim de-magento.conf 
+  362  rm -rf de-magento.conf 
+  363  rm -rf /etc/nginx/sites-available/de-magento.conf /etc/nginx/sites-enabled/de-magento.conf
+  364  vim magento.conf 
+  365  openssl req         -newkey rsa:2048 -nodes -keyout /etc/nginx/domain4.key        -x509 -days 365 -out /etc/nginx/domain4.crt
+  366  vim magento.conf 
+  367  systemctl restart nginx
+  368  vim /etc/hosts
+  369  cd /var/www/html/test/
+  370  ls
+  371  php bin/magento setup:static-content:deploy en_US de_DE 
+  372  php bin/magento setup:static-content:deploy en_US de_DE -f
+  373  php bin/magento cache:clean
+  374  vim /etc/nginx/sites-available/magento.conf 
+  375  vim nginx.conf.sample 
+  376  vim nginx.conf.sample 
+  377  systemctl restart nginx
+  378  systemctl status nginx.service
+  379  nginx -t
+  380  vim nginx.conf.sample 
+  381  vim /etc/nginx/sites-available/magento.conf 
+  382  nginx -t
+  383  systemctl restart nginx
+  384  php bin/magento setup:static-content:deploy en_US de_DE -f
+  385  php bin/magento cache:clean
+  386  php bin/magento cache:flush
+  387  php bin/magento setup:upgrade
+  388   php bin/magento setup:di:compile
+  389  cat /etc/hosts
+  390  php bin/magento setup:static-content:deploy en_US de_DE -f
+  391  php bin/magento cache:flush
+  392  chown -Rv magento-ssh:clp /var/www && chmod -Rv 775 /var/www
+  393  php bin/magento setup:upgrade
+  394   php bin/magento setup:di:compile
+  395  find env.php
+  396  find * env.php
+  397  history
+  398  mkdir /original
+  399  cp -arv app/etc/env.php /original/
+  400  bin/magento setup:config:set --page-cache=redis --page-cache-redis-server=127.0.0.1 --page-cache-redis-db=1
+  401  mysql -u root -p
+  402  bin/magento setup:config:set --page-cache=redis --page-cache-redis-server=127.0.0.1 --page-cache-redis-db=3
+  403  bin/magento setup:config:set --allow-parallel-generation`
+  404  bin/magento setup:config:set --allow-parallel-generation
+  405  redis-cli info
+  406  redis-cli monitor
+  407  cp -arv app/etc/env.php /original/env1.php
+  408  vim app/etc/env.php 
+  409  cat app/etc/env.php 
+  410  redis-cli info
+  411  redis-cli -v
+  412  sudo add-apt-repository ppa:redislabs/redis
+  413  php bin/magento admin:user:create --admin-user=gopal --admin-password=Gopal@123 --admin-email=test@mgt.com --admin-firstname=Gopal --admin-lastname=Raha
+  414  ls
+  415  nano app/etc/env.php
+  416  chown magento-ssh:clp app/etc/env.php 
+  417  php bin/magento setup:config:set --backend-frontname="mgtAdmin"
+  418  nano app/etc/env.php
+  419  bin/magento cron:run
+  420  crontab -l
+  421  history
+  422  openssl req         -newkey rsa:2048 -nodes -keyout /etc/nginx/wp.key        -x509 -days 365 -out /etc/nginx/wp.crt
+  423  cp -arv /etc/nginx/sites-available/magento.conf /etc/nginx/sites-available/wp.conf 
+  424  ln -s /etc/nginx/sites-enabled/
+  425  nano /etc/nginx/sites-available/wp.conf 
+  426  vim /etc/nginx/sites-available/wp.conf 
+  427  cd ..
+  428  mkdir wp
+  429  cd wp
+  430  ls
+  431  mysql -u root -p
+  432  wget https://wordpress.org/latest.zip
+  433  unzip latest.zip 
+  434  ls
+  435  mv wordpress/* .
+  436  ls
+  437  mv wp-config-sample.php wp-config.php 
+  438  vim wp-config.php 
+  439  nano wp-config.php 
+  440  history
+  441  chown -Rv magento-ssh:clp /var/www && chmod -Rv 775 /var/www
+  442  systemctl restart nginx
+  443  vim /etc/hosts
+  444  exit
+  445  vim /etc/nginx/sites-available/wp.conf 
+  446  systemctl restart nginx
+  447  vim /etc/nginx/sites-available/wp.conf 
+  448  systemctl restart nginx
+  449  cd /var/www/html/wp/
+  450  ls
+  451  mkdir /var/www/wp
+  452  mv * /var/www/wp/
+  453  vim /etc/nginx/sites-available/wp.conf 
+  454  cat /etc/nginx/sites-available/magento
+  455  cat /etc/nginx/sites-available/magento.conf 
+  456  vim /etc/nginx/sites-available/wp.conf 
+  457  systemctl restart nginx
+  458  curl -I https://blog.mgt/
+  459  vim /etc/nginx/sites-available/wp.conf 
+  460  systemctl restart nginx
+  461  cat /etc/hosts
+  462  cp -arv /etc/nginx/sites-available/magento.conf /original/ 
+  463  rm -rf /etc/nginx/sites-enabled/magento.conf 
+  464  systemctl restart nginx
+  465  cp -arv /etc/nginx/sites-available/phpmyadmin.conf /original/ 
+  466  rm -rf /etc/nginx/sites-enabled/phpmyadmin.conf
+  467  systemctl restart nginx
+  468  ls
+  469  cd ..
+  470  cd ..
+  471  ls
+  472  ls -l
+  473  chown -R magento-ssh:clp wp
+  474  chmod -R 775 wp
+  475  ls -l
+  476  ls -l wp/
+  477  vim /etc/nginx/sites-available/wp.conf 
+  478  systemctl restart nginx
+  479  cd /etc/nginx/
+  480  vim /etc/nginx/sites-available/wp.conf 
+  481  openssl req         -newkey rsa:2048 -nodes -keyout /etc/nginx/wps.key        -x509 -days 365 -out /etc/nginx/wps.crt
+  482  vim /etc/nginx/sites-available/wp.conf 
+  483  systemctl restart nginx
+  484  init 6
+  485  exit
+  486  ip a
+  487  exit
+  488  cd /var/www/wp/
+  489  ls
+  490  ls -l
+  491  ls -la
+  492  vim /etc/nginx/sites-available/wp.conf 
+  493  systemctl restart nginx
+  494  vim /etc/nginx/sites-available/wp.conf 
+  495  vim /etc/hosts
+  496  systemctl restart nginx
+  497  exit
+  498  apt install git
+  499  cd /original/
+  500  ls
+  501  mkdir /git
+  502  cd /git/
+  503  ls
+  504  git add .
+  505  git init
+  506  git add .
+  507  git commit -m "first commit"
+  508  git remote add origin https://github.com/gopalmgt/mgt.git
+  509  cp -arv /etc/nginx/sites-available/* /git/
+  510  git push -u origin master
+  511  git remote -v
+  512  git push origin master
+  513  git commit -m "initial commit"
+  514  git config --global user.email "gopal.raha@mgt.com"
+  515  git commit -m "initial commit"
+  516  git push origin master
+  517  git show-ref
+  518  git push origin HEAD:master
+  519  git push --force origin master
+  520  touch README
+  521  git add README
+  522  git add 
+  523  git add .
+  524  git commit -m 'reinitialized files'
+  525  git push origin master --force 
+  526  git push origin HEAD:master
+  527  git push origin
+  528  git push --set-upstream origin master
+  529  git push -u origin master
+  530  git commit -m "initial commit"
+  531  git push origin master
+  532   history > /git/history1
